@@ -332,8 +332,8 @@ function response_nav() {
 		
 	?>
 		
-	<div class="container">
-		<div class="row">
+	<div class="container container-nav">
+		<div class="row row-nav">
 
 			<div class="twelve columns" id="menu">
 
