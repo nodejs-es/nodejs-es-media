@@ -1,0 +1,47 @@
+#ggroup-wrap {
+	margin-top:20px;
+	padding:10px;
+	border: #EEE 2px solid;
+	margin:auto;
+	border-radius: 10px;
+	 -moz-border-radius: 10px;
+	 -webkit-border-radius: 10px;
+}
+
+#gtext {
+	padding:0 5px 0 5px;
+	margin-top:15px;
+	display:block;
+	background:#FFF;
+	font-size:.9em;
+}
+#gtext ul li a{
+	color:#666;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	background:transparent;
+	line-height:100%;
+}
+#gtext ul li a:hover{
+	text-decoration:underline;
+}
+#ggroup-wrap .gjoin {
+	text-align:center;
+	font-style:italic;
+	font-size:1.4em;
+}
+#ggroup-wrap .widgettitle {
+	
+	font-size:1.4em;
+	font-style:bold;
+	color:#666;
+	padding-top:57px;
+	text-align:center;
+}
+#ggroup-wrap .gimage {
+	text-align:center;
+	background: #FFF url('googlegroups.png') no-repeat;
+	height: 60px;
+	width:159px; 
+	margin:auto;
+}
