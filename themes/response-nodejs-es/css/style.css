@@ -1,4 +1,4 @@
-/* Response Style.css */
+/* esponse Style.css */
 
 /* Reset and Design Constant Styles */
 
@@ -421,7 +421,10 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 
 .widget-container li {list-style: none; margin-left: 5px;}
 
-.textwidget {padding-top: 10px;}
+.textwidget {
+  padding-top: 10px;
+  color: #aaa;
+}
 
 #sidebar .widget-container td {padding-right: 15px;}
 
