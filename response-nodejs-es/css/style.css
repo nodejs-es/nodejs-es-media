@@ -37,12 +37,10 @@ a:hover {
 #menu {
 	background: #46483E;
   color: #40AA00;
-	border: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	text-decoration: none;
 	overflow: visible;
-	margin-bottom: 15px;
 	margin-left: 0px;
-	margin-top: 5px;
 }
 
 /* Half Nav  */
