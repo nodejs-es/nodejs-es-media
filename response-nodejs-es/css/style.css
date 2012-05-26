@@ -5,9 +5,12 @@
 *, html, body{padding:0;border:0;margin:0;}
 body, div, p, input, textarea{font-size:14px;}
 h1, h2, h3, h4, h5, h6{font-weight:normal;}
-p{margin: 0 0 10px 0;clear: both;}
-a{color:#0085CF;text-decoration:none}
-a:hover{text-decoration:none}
+p {margin: 0 0 10px 0;clear: both;}
+a {
+  color: #40AA00;
+  text-decoration: none;
+}
+
 #wrapper input, textarea{color:#666;border:#ccc 1px solid;border-radius:2px;-moz-border-radius: 2px;}
 input[type=submit]{cursor:pointer;}
 input {border: 1px solid #ccc;}
@@ -16,7 +19,9 @@ input[type=reset]{font-size: 12px;padding: 2px;margin-top: 5px;border: 1px solid
 a img{border:none}
 a{outline:none}
 
-body {background: #fff;}
+body {
+  background: #DAEFE0; 
+}
 
 /* Misc  */
 
@@ -30,8 +35,8 @@ a:hover {
 }
 
 #menu {
-	background: #fff;
-	color: #6098bf;
+	background: #46483E;
+  color: #40AA00;
 	border: 1px solid #ddd;
 	text-decoration: none;
 	overflow: visible;
@@ -169,21 +174,36 @@ color:#fff;
 
 .error {font-size:28px; text-align:center; }
 
-a:hover {color: #5ca9d6;}
+a:hover {color: #5cd649;}
 
 /* Header  */
 
-header {margin-top: 15px;}
+header {
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #aba;
+}
 
+header {
+}
 #header_contact{ text-align:right;}
 
-#logo {margin-bottom: 5px;}
+#logo {
+  margin: 5px 0 0 20px;
+}
+
+#logo a {
+  display: block;
+}
 
 #banner {margin-bottom: 10px;}
 
 /* Social Icons  */
 
-#social {margin-bottom: 0px;}
+#social {
+  margin-bottom: 0px;
+  margin: 10px;
+}
 
 .icons {text-align:right;}
 
@@ -282,9 +302,17 @@ header {margin-top: 15px;}
 	background: #f2fff2;
 	margin-bottom:15px;
 	margin-left: 0px;
-	border: 1px solid #DDD;
+	border: 1px solid #EFE;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
+}
+
+.post_container a {
+  color: #480;
+}
+
+.post_container a:hover {
+  color: #260;
 }
 
 .post_container ul {list-style: disc;margin-left: 21px;list-style-position: inside;}
@@ -315,7 +343,19 @@ header {margin-top: 15px;}
 
 .gplusone {margin-bottom: 10px;}
 
-.post-edit-link {background-color: #757575;padding: 2px 3px;color: white;font-size: 10px;border-radius: 3px;-moz-border-radius: 3px;}
+.post-edit-link {
+  background-color: #757575;
+  padding: 2px 3px;
+  color: white;
+  font-size: 10px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  color: #efe !important;
+}
+
+.post-edit-link a {
+  color: #efe;
+}
 
 /* Posts Navigation */
 
@@ -369,7 +409,8 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 	margin-bottom: 15px;
 	padding: 15px;
 	background: #fff;
-	border: 1px solid #DDD;
+	border: 1px solid #ccc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 .widget-container li {list-style: none; margin-left: 5px;}
@@ -411,7 +452,11 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 
 #footer_container {background: #fff;border: 1px solid #ddd;}
 
-#footer_wrap {padding:15px;}
+#footer_wrap {
+  padding: 15px;
+  background-color: #46483E;
+  border: 2px solid #444;
+}
 
 .footer-widgets {
 	color: #fff;
@@ -420,7 +465,9 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 }
 
 .footer-widget-title {
-	font-size:16px;color:#222;font-weight: 400;
+	font-size: 16px;
+  color: #fff;
+  font-weight: 400;
 }
 
 .footer-widgets ul{padding:5px 0px 5px 0px; margin-left: 0px;}
@@ -428,7 +475,7 @@ ol, ul {list-style-position: inside;margin-left: 21px;}
 .footer-widgets li {
 	list-style-type: none;
 	padding-left: 0;
-	color: #666;
+	color: #aaa;
 }
 
 .footer-item ul {
@@ -676,7 +723,7 @@ h6 {
 }
 
 .posts_title a:hover{
-	color: #5ca9d6;
+  color: #4a8;
 }
 
 h1.description, h1.sitename {margin-bottom: 0px;}
