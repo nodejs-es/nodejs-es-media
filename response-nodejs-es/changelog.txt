@@ -1,0 +1,89 @@
+Response Changelog
+
+****************************
+
+Version 1.1.3 (05-17-12)
+-Added option for responsive embeded videos (Youtube/Vimeo).
+-Added Polish language files.
+-Fixed broken Custom Header Element.
+
+Version 1.1.2 (05-10-12)
+-Added Spanish, Italian, Turkish and Persian language files. 
+-Updated Croatian and Swedish translation files. 
+-Updated response.pot
+-Fixed/added missing translation wrappers to post pagination function.
+
+Version 1.1.1 (05-03-12)
+-JS fix for banner url not hiding when option not enabled. 
+-Mobile Menu now works in phone landscape mode. 
+-Fixed bug with broken "next" link in pagination.
+-Option to crop featured images.
+-Added missing translation wrapper to post pagination links.
+-Added Swedish and Russian language files.
+
+Version 1.1 (04-26-12)
+-Added Pinterest social icon. 
+-Added missing tags hook to archive template.
+-Added missing $content_width global to theme setup function.
+-Updated pagination function with missing translation functions.
+-Updated response.pot.
+
+Version 1.0.9 (04-17-12)
+-Removed ereg_replace from Google Font code for PHP 5.3 compatibility. 
+-Removed several unneccessary options from theme options. 
+-Removed some unused translation functions.
+
+Version 1.0.8 (04-10-12)
+-Added Hebrew translation files.
+-Removed some unecessary translations from several po files.
+-Regenerated mo files for updated po files.
+-Re-added IE Quirks fix. 
+
+Version 1.0.7 (04-03-12)
+-Unidentified index error fix for meta box code. 
+-Changed <!--more--> link text to "Read more…" when the_content() is used.
+-Added French and Romanian translation files.
+-Removed height: auto from objects in responsive style sheet.
+-Fixed bug with archive of an empty category.
+-Adjusted "viewport" initial scale for full-width mobile device view.  
+-Removed unnecessary color stylesheet call.  
+
+Version 1.0.6 (03-22-12)
+-Added opt-in PressTrends option.
+-Updated response.pot.
+-Added Croatian language files.
+-Post pagination CSS fix.
+
+Version 1.0.5 (03-14-12)
+-Removed PressTrends function.
+-Conditional to stop breadcrumb links from appearing on attachment pages.
+-Removed some unnecessary images.
+-Additional code and script cleanup.
+-Updated HTML comment wrappers around hooks.
+-Updated some theme images/copy.
+
+Version 1.0.4 (03-07-12)
+-Responsive design tweak.
+-Fixed Google Font library call for SSL support.
+-Added browser specific HTML classes for IE.
+-Added Banner Element URL option.
+-Removed some unnecessary code.
+-HTML table fix for calendar widget. 
+
+Version 1.0.3 (03-04-12)
+-Fixed bug related to IE quirks mode.
+-Adjusted doctype. 
+-CSS tweaks.
+-Moved breadcrumbs below content.
+-Fixed typo in theme options.
+-Fixed page titles not showing up by default.
+-Added next/previous image pagination for attachments.
+
+Version 1.0.2 (02-27-12)
+-Margin fix for HTML tables.
+-Removed several options.
+-Updated Foundation CSS.
+
+Version 1.0.1 (02-24-12)
+-Initial release.
+

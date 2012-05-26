@@ -1,0 +1,70 @@
+/* Page Elements */
+
+#orbitDemo {border: 1px solid #ccc;}
+
+/*============================*/
+/*===== Callout Section ======*/
+/*============================*/
+
+#calloutwrap {
+	overflow: hidden;
+	position:relative;
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+	background: #fff;
+	border: 1px solid #DDD;
+}
+
+#callout_text {
+	font-size: 14px;
+	margin-left: 0;
+	padding: 15px;
+}
+
+.callout_title {
+	font-size: 20px;
+}
+
+#calloutbutton {
+	padding: 10px 5px 10px 5px;
+	margin-top: 28px;
+	background: #333;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	
+}
+
+#calloutimg{
+	padding-top: 10px;
+	
+	float:right;
+}
+
+.callout_link {text-align: center; margin-bottom: 0px;}
+
+#calloutbutton:hover{
+	background: #222;
+}
+
+#calloutbutton a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.slider_nav {
+	height: 50px;
+	width: 100%;
+	margin-top: -45px !important;
+	*margin-top: -25px !important;
+	border: 1px solid #DDD;
+	margin: auto;
+	margin-bottom: 7px;
+	background: #fff;
+}
+
+div.timer {display: none !important;}
