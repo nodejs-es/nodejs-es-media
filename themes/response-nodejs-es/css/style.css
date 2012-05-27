@@ -834,3 +834,9 @@ figure {
   margin-left: 54px;
   line-height: 42px;
 }
+
+/* Twitter Blender plugin */
+.tb_tweetlist .tb_tweet {
+  font-size: 12px;
+}
+
