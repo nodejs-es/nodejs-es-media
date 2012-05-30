@@ -115,10 +115,10 @@ color:#fff;
 
 #sidebar {*margin-top: 15px;}
 
-#sidebar.four.columns {margin-left: 1.6%; width: 32.6%; right: -.2em;}
-#sidebar.four.columns {margin-left: 1.5%\9; width: 32.6%; right: -.2em;}
-#sidebar_left.four.columns {margin-right: 1.6%; width: 32.6%;}
-#sidebar_left.four.columns {margin-right: 1.5%\9; width: 32.6%;}
+#sidebar.four.columns {margin-left: 1.6%; width: 32.5%; right: -.2em;}
+#sidebar.four.columns {margin-left: 1.5%\9; width: 32.5%; right: -.2em;}
+#sidebar_left.four.columns {margin-right: 1.6%; width: 32.5%;}
+#sidebar_left.four.columns {margin-right: 1.5%\9; width: 32.5%;}
 #content.eight.columns {width: 65.9%; margin-left: 0%;}
 
 
@@ -592,21 +592,22 @@ img.size-full {
 }
 
 .wp-caption p.wp-caption-text {
-    font-size:11px;
-    line-height:17px;
-    margin:0;
-    padding:0 4px 5px;
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
 }
-
-
 
 blockquote { 
-	background-color: #ccc;
-	margin: 10px;
-	padding: 3px;
+  background-color: #cea;
+  margin: 10px;
+  padding: 3px;
 }
 
-blockquote p {margin: 10px; }
+blockquote p {
+  margin: 10px;
+  color: 060;
+}
 
 .sticky { }
 
@@ -805,34 +806,6 @@ figure {
 
 .ui-tabs-hide {
 	display: none;
-}
-
-.wp-github-contributors {}
-.wp-github-contributors h2 {
-  font-size: 20px;
-  border: 0px;
-}
-
-.wp-github-contributors ul {}
-.wp-github-contributors ul li {
-  height: 50px;
-}
-
-.wp-github-contributors ul li a {
-  font-size: 16px;
-}
-
-.wp-github-contributors ul li a img {
-  border: 1px solid #eee;
-  padding: 2px;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-}
-
-.wp-github-contributors ul li a span {
-  margin-left: 54px;
-  line-height: 42px;
 }
 
 /* Twitter Blender plugin */
