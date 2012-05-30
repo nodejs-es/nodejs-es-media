@@ -604,9 +604,10 @@ blockquote {
   padding: 3px;
 }
 
-blockquote p {
+blockquote p ,
+blockquote div {
   margin: 10px;
-  color: 060;
+  color: #364;
 }
 
 .sticky { }
